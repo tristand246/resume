@@ -70,5 +70,5 @@ In order to get our files on Github we must:
 
 - ***Q:*** Can I use something else than Github Pages for hosting?
     - ***A:*** Yes, there are many ways to host a website. Including using your own domain name and self hosting, or using a different hosting service, such as [Codeberg Pages](https://codeberg.page/).
-- ***Q:*** Can other people see my website on Jekyll?
+- ***Q:*** Can other people access my website when hosted on Jekyll?
     - ***A:*** Not if you hosted it with the method shown in this readme. It is possible to allow local access to your Jekyll hosted website by using a command such as "*jekyll serve --host 0.0.0.0 --port 4000*". Public access can be allowed by forwarding the given port on your router.
