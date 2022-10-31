@@ -17,7 +17,7 @@ This walkthrough is intended for Windows, the process of setting up on other ope
 
 ### Installing
 
-Open a command prompt, press **Windows Key+R** type "**cmd.exe**" then hit enter, and type the following:
+Open a command prompt, press **Windows Key+R** type "*cmd.exe*" then hit enter, and type the following:
 
     gem install jekyll bundler
 
@@ -29,20 +29,21 @@ This will install Jekyll. We then type the following on a **new** command prompt
 
 ## Setup
 
-- Create a new text document in your blank folder. Rename this from "**New Text Document.txt**" to "**start.bat**".
+- Create a new text document in your blank folder. Rename this from "*New Text Document.txt*" to "*start.bat*".
 
-Copy and paste the following code into "**start.bat**":
+Copy and paste the following code into "*start.bat*":
 
     if exist index.md goto host
     jekyll new ./ --blank
     :host
-    jekyll serve --host 0.0.0.0 --port 8080
+    jekyll serve
 
-- Run "**start.bat**" contained in the folder, and allow access to the *Windows Firewall* pop-up. This will generate and host a blank website.
+- Run "*start.bat*" contained in the folder, and allow access to the *Windows Firewall* pop-up. This will generate and host a blank website.
+- Type "*127.0.0.1:4000*" into your browser's address bar to preview your website.
 
 ### Adding the Resume
 
-- Replace "**index.md**" with your Resume, maintaining the file name "**index.md**".
+- Replace "*index.md*" with your Resume, maintaining the file name "*index.md*".
 
 ## Public Hosting
 
@@ -69,5 +70,5 @@ In order to get our files on Github we must:
 
 - ***Q:*** Can I use something else than Github Pages for hosting?
     - ***A:*** Yes, there are many ways to host a website. Including using your own domain name and self hosting, or using a different hosting service, such as [Codeberg Pages](https://codeberg.page/).
-- ***Q:*** Hello
-    - ***A:*** Hello
+- ***Q:*** Can other people see my website on Jekyll?
+    - ***A:*** Not if you hosted it with the method shown in this readme. It is possible to allow local access to your Jekyll hosted website by using a command such as "*jekyll serve --host 0.0.0.0 --port 4000*". Public access can be allowed by forwarding the given port on your router.
