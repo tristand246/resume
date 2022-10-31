@@ -4,11 +4,13 @@ We will be publically hosting a Resume written in markdown. There are great adva
 
 ## Getting started
 
-- This walkthrough is intended for Windows, the process of setting up on other operating systems may vary.
-- Start with a blank folder, which will hold all our necessary files in order to host the Resume.
+This walkthrough is intended for Windows, the process of setting up on other operating systems may vary.
+
+- Create a new folder, this will hold all our necessary files in order to host the Resume.
 
 ### Prerequisites
 
+- A [Windows](https://www.microsoft.com/en-ca/software-download/windows10) compatible system.
 - The latest version of [Ruby](https://rubyinstaller.org/downloads/).
 - An editor capable of editing markdown, such as [Visual Studio Code](https://code.visualstudio.com/).
 - A valid [Github](https://github.com/) account.
@@ -53,13 +55,19 @@ In order to get our files on Github we must:
 - Create a new public repository, giving it your desired name and description. Check the "*Add a README file*" box, under "*Initialize this repository with*".
 - Access your newly created repository and select "*Add file*" then "*Upload files*" and drag your folder contents into the dropbox and upload.
 
+### Hosting on Github Pages
+
+- Click on "*Settings*" in your newly created repository.
+- Click "*Pages*" on the options list to the left.
+- Select the "*main*" branch and click save.
+
 ## Authors and Acknowledgements
 
 - Author: Tristan Dyck
 
 ## FAQ
 
-- ***Q:*** Do I need to use Github Pages for hosting?
-    - ***A:*** No, you can also host it yourself by buying a Domain Name and using "*jekyll serve --host 0.0.0.0 --port 80*".
+- ***Q:*** Can I use something else than Github Pages for hosting?
+    - ***A:*** Yes, there are many ways to host a website. Including using your own domain name and self hosting, or using a different hosting service, such as [Codeberg Pages](https://codeberg.page/).
 - ***Q:*** Hello
     - ***A:*** Hello
