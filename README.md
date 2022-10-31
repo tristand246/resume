@@ -38,8 +38,28 @@ Copy and paste the following code into "**start.bat**":
 
 - Run "**start.bat**" contained in the folder, and allow access to the *Windows Firewall* pop-up. This will generate and host a blank website.
 
-### Adding our Resume
+### Adding the Resume
 
-- Replace "**index.md**" with our Resume, maintaining the file name "**index.md**".
+- Replace "**index.md**" with your Resume, maintaining the file name "**index.md**".
 
 ## Public Hosting
+
+We are going to use Github pages to publicly host the Resume.
+
+### Uploading to Github
+
+In order to get our files on Github we must:
+
+- Create a new public repository, giving it your desired name and description. Check the "*Add a README file*" box, under "*Initialize this repository with*".
+- Access your newly created repository and select "*Add file*" then "*Upload files*" and drag your folder contents into the dropbox and upload.
+
+## Authors and Acknowledgements
+
+- Author: Tristan Dyck
+
+## FAQ
+
+- ***Q:*** Hi
+    - ***A:*** Hi
+- ***Q:*** Hello
+    - ***A:*** Hello
