@@ -1,6 +1,6 @@
-# Public Resume Hosting
+# Public Resume Website Hosting
 
-We will be publically hosting a Resume written in markdown. To do this there are several things we must install and setup beforehand.
+We will be publically hosting a Resume written in markdown. There are great advantages to hosting a Resume website as opposed to storing and submitting a PDF. Websites can be updated almost instantaniously, whereas a PDF needs to be resubmitted and version control is harder to maintain, especially if you keep multiple versions saved at once. To do this, there are several things we must install and setup beforehand.
 
 ## Getting started
 
@@ -59,7 +59,7 @@ In order to get our files on Github we must:
 
 ## FAQ
 
-- ***Q:*** Hi
-    - ***A:*** Hi
+- ***Q:*** Do I need to use Github Pages for hosting?
+    - ***A:*** No, you can also host it yourself by buying a Domain Name and using "*jekyll serve --host 0.0.0.0 --port 80*".
 - ***Q:*** Hello
     - ***A:*** Hello
