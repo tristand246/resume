@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>My Website</title>
+    
+    
+    <description>This website is a virtual proof that I&apos;m awesome</description>
+    
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Resume</title>
+        <description>
+          My amazing Resume! - 
+          Tristan Dyck Contact (204)362-3054 dyckt4@myumanitoba.ca GitHub Skills Self-Knowledge Python C/C++ Batch/Bash Linux Git OpenGL/GLFW Course Knowledge Java Javascript C/C++ Bash Android Studio Git SQLite3 Familiar With HTML CSS Personal Projects Python 2D Game Engine 2D tile-based game engine in Python and OpenGL bindings. Handles rendering, sprite-sheet splicing, culling, collision, and...
+        </description>
+        <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/2022-11-01-resume/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022-11-01-resume/</guid>
+      </item>
+    
+      <item>
+        <title>README</title>
+        <description>
+          Step by step instructions to reproduce this website! - 
+          Public Resume Website Hosting We will be publically hosting a Resume written in markdown. There are great advantages to hosting a Resume website as opposed to storing and submitting a PDF. Websites can be updated almost instantaniously, whereas a PDF needs to be resubmitted and version control is harder to...
+        </description>
+        <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/2022-11-01-readme/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022-11-01-readme/</guid>
+      </item>
+    
+  </channel>
+</rss>
