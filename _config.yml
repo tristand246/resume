@@ -1,3 +1,3 @@
 url: "https://tristand246.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/resume" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 title: "Tristan Dyck Resume" # the name of your site, e.g. ACME Corp.
